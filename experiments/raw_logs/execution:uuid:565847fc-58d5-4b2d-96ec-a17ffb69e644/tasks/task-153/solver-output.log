@@ -1,0 +1,1 @@
+499.21/500.85	{"active_rules": 78, "algorithm": "cyber-complement-gfp-plus-immutable", "basin_size": "302231454903657293676544", "bdd_basin_nodes": 2, "bdd_iterations": 103, "bdd_peak_nodes": 677556, "pruned_variables": 72, "result_status": "completed", "retained_variables": 78, "skipped_rules": 72, "variable_order": "lexical"}

@@ -1,0 +1,26 @@
+1794.77/1800.00	   0.000 === Boolean Network: /input/model_078.bnet ===
+1794.77/1800.00	   0.000 Rules: 164
+1794.77/1800.00	   0.001 Loaded attractor from: /input/model_078_01.csv
+1794.77/1800.00	   0.001 Attractor length: 1
+1794.77/1800.00	   0.001 Using Complement GFP+Immutable
+1794.77/1800.00	   0.003 CyBER configuration: Complement GFP+Immutable
+1794.77/1800.00	   0.003 CyBER enabled techniques: complement-gfp,immutable
+1794.77/1800.00	   0.003 BDD retained variables: 151
+1794.77/1800.00	   0.003 BDD pruned convergent-output variables: 13
+1794.77/1800.00	   0.003 BDD backend: Biodivine BDD 0.5.27
+1794.77/1800.00	   0.003 CyBER fixed point: Complement GFP
+1794.77/1800.00	   0.003 BDD variables: 151
+1794.77/1800.00	   0.003 BDD transition representation: rule-local kernels
+1794.77/1800.00	   0.003 BDD active rule functions: 151
+1794.77/1800.00	   0.003 BDD variable order: lexical
+1794.77/1800.00	   0.003 BDD image accumulation: binary then union
+1794.77/1800.00	   0.003 BDD safety/deadlock check: global
+1794.77/1800.00	   0.003 BDD build time: 0.001
+1794.77/1800.00	 441.231 BDD iteration 1: bad nodes=302, time=220.870
+1794.77/1800.00	 662.203 BDD iteration 2: bad nodes=1296, time=220.972
+1794.77/1800.00	 883.011 BDD iteration 3: bad nodes=3978, time=220.808
+1794.77/1800.00	1104.378 BDD iteration 4: bad nodes=10467, time=221.367
+1794.77/1800.00	1327.072 BDD iteration 5: bad nodes=28611, time=222.694
+1794.77/1800.00	1553.469 BDD iteration 6: bad nodes=70628, time=226.396
+1794.77/1800.00	1787.895 BDD iteration 7: bad nodes=167266, time=234.426
+1794.77/1800.00	{"algorithm": "cyber-complement-gfp-plus-immutable", "error": "bn4rust exited with code -15", "result_status": "failed"}

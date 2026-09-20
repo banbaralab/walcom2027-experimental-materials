@@ -1,0 +1,3 @@
+0.53/1.10	INFO generated new fontManager
+1792.64/1800.00	ERROR failed to run bnet_file2primes: cmd=/usr/local/lib/python3.10/dist-packages/pyboolnet/binaries/BNetToPrime/BNetToPrime_linux64 /input/model_159.bnet, return_code=-15, out='', err=''
+1792.64/1800.00	{"algorithm": "pyboolnet-cycle-free", "error": "", "result_status": "failed", "update": "asynchronous"}

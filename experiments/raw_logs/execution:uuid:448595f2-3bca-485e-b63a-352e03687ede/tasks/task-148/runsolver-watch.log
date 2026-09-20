@@ -1,0 +1,108 @@
+runsolver version 3.4.1 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 8
+  memory of node 0: 63700 MiB (44122 MiB free)
+  memory of node 1: 64461 MiB (63461 MiB free)
+  memory of node 2: 64504 MiB (63835 MiB free)
+  memory of node 3: 64504 MiB (63838 MiB free)
+  memory of node 4: 64504 MiB (63828 MiB free)
+  memory of node 5: 64504 MiB (58717 MiB free)
+  memory of node 6: 64504 MiB (62185 MiB free)
+  memory of node 7: 64491 MiB (58988 MiB free)
+  node distances:
+     10  12  12  12  21  21  21  21
+     12  10  12  12  21  21  21  21
+     12  12  10  12  21  21  21  21
+     12  12  12  10  21  21  21  21
+     21  21  21  21  10  12  12  12
+     21  21  21  21  12  10  12  12
+     21  21  21  21  12  12  10  12
+     21  21  21  21  12  12  12  10
+
+command line: /usr/local/bin/runsolver --timestamp -w /output/runsolver-watch.log -v /output/runsolver-values.log -o /output/solver-output.log -C 1800.0 -W 1800.0 -R 64000 /opt/solver/run_bn4rust.py --mode cyber-complement-gfp-plus-sink-scc --instance /input/model_213.bnet 
+
+running on 26 cores: 88-101,200-211
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 1800 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 1830 seconds
+Enforcing wall clock limit (soft limit, will send SIGTERM then SIGKILL): 1800 seconds
+Enforcing RSS+Swap limit (soft limit, will send SIGTERM then SIGKILL): 65536000 KiB
+Linux 4.18.0-553.159.1.el8_10.x86_64
+solver pid=16, runsolver pid=13
+Current StackSize limit: 18014398509481983 KiB
+
+
+[startup+0.100069 s]*
+/proc/loadavg: 4.02 4.78 4.86 5/2888 17
+/proc/meminfo: memFree=490457552/527542224 swapFree=33534716/33554428
+[pid=16] ppid=13 vsize=15800 memory=10168 CPUtime=0.02 cores=88-101,200-213
+/proc/16/stat : 16 (python3) D 13 16 0 0 -1 4194304 1395 0 84 0 2 0 0 0 20 0 1 0 53418892 16179200 2542 67087892480 4194304 7154137 140733571988992 0 0 0 0 16781312 2 0 0 0 17 99 0 0 6 0 0 9727432 11029816 33976320 140733571996479 140733571996589 140733571996589 140733571997671 0
+/proc/16/statm: 3950 2542 1406 723 0 1674 0
+Current children cumulated CPU time: 0.02 s
+Current children cumulated vsize: 15800 KiB
+Current children cumulated memory: 10168 KiB
+
+[startup+0.20053 s]*
+/proc/loadavg: 4.02 4.78 4.86 5/2888 17
+/proc/meminfo: memFree=490833316/527542224 swapFree=33534716/33554428
+[pid=16] ppid=13 vsize=17684 memory=12480 CPUtime=0.1 cores=88-101,200-213
+/proc/16/stat : 16 (python3) R 13 16 0 0 -1 4194304 1889 0 96 0 3 7 0 0 20 0 1 0 53418892 18108416 3120 67087892480 4194304 7154137 140733571988992 0 0 0 0 16781312 2 0 0 0 17 99 0 0 8 0 0 9727432 11029816 33976320 140733571996479 140733571996589 140733571996589 140733571997671 0
+/proc/16/statm: 4421 3120 1525 723 0 2063 0
+Current children cumulated CPU time: 0.1 s
+Current children cumulated vsize: 17684 KiB
+Current children cumulated memory: 12480 KiB
+
+[startup+0.246974 s]
+# the end of solver process 16 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.046519 s, system=0.089204 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+Child status: 0
+Real time (s): 0.247
+CPU time (s): 0.135723
+CPU user time (s): 0.046519
+CPU system time (s): 0.089204
+CPU usage (%): 54.9486
+Max. virtual memory (cumulated for all children) (KiB): 17684
+Max. memory (cumulated for all children) (KiB): 12480
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.046519
+system time used= 0.089204
+maximum resident set size= 12624
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 2095
+page faults= 117
+swaps= 0
+block input operations= 20000
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 976
+involuntary context switches= 1
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 16
+#   total CPU time (s): 0.135723
+#   total CPU user time (s): 0.046519
+#   total CPU system time (s): 0.089204
+
+??? join timestamper begins
+??? join timestamper ends
+??? end of timestamper thread
+runsolver used 0.001673 second user time and 0.005022 second system time
+
+The end

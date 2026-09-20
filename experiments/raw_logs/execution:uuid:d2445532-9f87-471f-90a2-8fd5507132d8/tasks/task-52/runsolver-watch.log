@@ -1,0 +1,150 @@
+runsolver version 3.4.1 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 8
+  memory of node 0: 63700 MiB (61318 MiB free)
+  memory of node 1: 64504 MiB (63582 MiB free)
+  memory of node 2: 64504 MiB (61140 MiB free)
+  memory of node 3: 64504 MiB (63575 MiB free)
+  memory of node 4: 64504 MiB (63423 MiB free)
+  memory of node 5: 64461 MiB (63203 MiB free)
+  memory of node 6: 64504 MiB (63544 MiB free)
+  memory of node 7: 64491 MiB (37217 MiB free)
+  node distances:
+     10  12  12  12  21  21  21  21
+     12  10  12  12  21  21  21  21
+     12  12  10  12  21  21  21  21
+     12  12  12  10  21  21  21  21
+     21  21  21  21  10  12  12  12
+     21  21  21  21  12  10  12  12
+     21  21  21  21  12  12  10  12
+     21  21  21  21  12  12  12  10
+
+command line: /usr/local/bin/runsolver --timestamp -w /output/runsolver-watch.log -v /output/runsolver-values.log -o /output/solver-output.log -C 1800.0 -W 1800.0 -R 64000 /opt/solver/run_bn4rust.py --mode cyber-full --instance /input/model_201.bnet 
+
+running on 28 cores: 49,51,53-55,161,163,165-167,187,75,90-97,202-209
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 1800 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 1830 seconds
+Enforcing wall clock limit (soft limit, will send SIGTERM then SIGKILL): 1800 seconds
+Enforcing RSS+Swap limit (soft limit, will send SIGTERM then SIGKILL): 65536000 KiB
+Linux 4.18.0-553.159.1.el8_10.x86_64
+Current StackSize limit: 18014398509481983 KiB
+
+solver pid=16, runsolver pid=13
+
+[startup+0.100086 s]*
+/proc/loadavg: 40.00 41.56 48.99 52/2975 17
+/proc/meminfo: memFree=488378612/527542200 swapFree=33551356/33554428
+[pid=16] ppid=13 vsize=15800 memory=10120 CPUtime=0.01 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/16/stat : 16 (python3) R 13 16 0 0 -1 4194304 1381 0 84 0 1 0 0 0 20 0 1 0 53230943 16179200 2530 67087892480 4194304 7154137 140737158019120 0 0 0 0 16781312 2 0 0 0 17 49 0 0 6 0 0 9727432 11029816 40255488 140737158019927 140737158020013 140737158020013 140737158021095 0
+/proc/16/statm: 3950 2530 1396 723 0 1674 0
+Current children cumulated CPU time: 0.01 s
+Current children cumulated vsize: 15800 KiB
+Current children cumulated memory: 10120 KiB
+
+[startup+0.200715 s]*
+/proc/loadavg: 40.00 41.56 48.99 43/2980 18
+/proc/meminfo: memFree=488344684/527542200 swapFree=33551356/33554428
+[pid=16] ppid=13 vsize=17684 memory=12420 CPUtime=0.04 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/16/stat : 16 (python3) S 13 16 0 0 -1 4194304 1892 0 96 0 3 1 0 0 20 0 1 0 53230943 18108416 3105 67087892480 4194304 7154137 140737158019120 0 0 0 0 16781312 2 1 0 0 17 49 0 0 8 0 0 9727432 11029816 40255488 140737158019927 140737158020013 140737158020013 140737158021095 0
+/proc/16/statm: 4421 3105 1512 723 0 2063 0
+[pid=18] ppid=16 vsize=7772 memory=2112 CPUtime=0 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/18/stat : 18 (bn4rust) I 16 16 0 0 -1 4194304 138 0 12 0 0 0 0 0 20 0 1 0 53230957 7958528 528 67087892480 94508638355456 94508640222577 140732030881408 0 0 0 0 4096 1088 0 0 0 17 54 0 0 1 0 0 94508640480640 94508640527576 94508665544704 140732030884634 140732030884758 140732030884758 140732030885857 0
+/proc/18/statm: 1943 528 474 456 0 104 0
+Current children cumulated CPU time: 0.04 s
+Current children cumulated vsize: 25456 KiB
+Current children cumulated memory: 14532 KiB
+
+[startup+0.300576 s]*
+/proc/loadavg: 40.00 41.56 48.99 46/2980 18
+/proc/meminfo: memFree=488336504/527542200 swapFree=33551356/33554428
+[pid=16] ppid=13 vsize=17684 memory=12420 CPUtime=0.04 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/16/stat : 16 (python3) S 13 16 0 0 -1 4194304 1894 0 96 0 3 1 0 0 20 0 1 0 53230943 18108416 3105 67087892480 4194304 7154137 140737158019120 0 0 0 0 16781312 2 1 0 0 17 49 0 0 8 0 0 9727432 11029816 40255488 140737158019927 140737158020013 140737158020013 140737158021095 0
+/proc/16/statm: 4421 3105 1512 723 0 2063 0
+[pid=18] ppid=16 vsize=7772 memory=4396 CPUtime=0 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/18/stat : 18 (bn4rust) I 16 16 0 0 -1 4194304 148 0 14 0 0 0 0 0 20 0 1 0 53230957 7958528 1099 67087892480 94508638355456 94508640222577 140732030881408 0 0 0 0 4096 1088 0 0 0 17 54 0 0 1 0 0 94508640480640 94508640527576 94508665544704 140732030884634 140732030884758 140732030884758 140732030885857 0
+/proc/18/statm: 1943 1099 1031 456 0 104 0
+Current children cumulated CPU time: 0.04 s
+Current children cumulated vsize: 25456 KiB
+Current children cumulated memory: 16816 KiB
+
+[startup+0.70027 s]
+/proc/loadavg: 40.00 41.56 48.99 47/2980 18
+/proc/meminfo: memFree=488321372/527542200 swapFree=33551356/33554428
+[pid=16] ppid=13 vsize=17684 memory=12420 CPUtime=0.04 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/16/stat : 16 (python3) S 13 16 0 0 -1 4194304 1895 0 96 0 3 1 0 0 20 0 1 0 53230943 18108416 3105 67087892480 4194304 7154137 140737158019120 0 0 0 0 16781312 2 1 0 0 17 49 0 0 8 0 0 9727432 11029816 40255488 140737158019927 140737158020013 140737158020013 140737158021095 0
+/proc/16/statm: 4421 3105 1512 723 0 2063 0
+[pid=18] ppid=16 vsize=8428 memory=5256 CPUtime=0.38 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/18/stat : 18 (bn4rust) R 16 16 0 0 -1 4194304 3246 0 18 0 38 0 0 0 20 0 1 0 53230957 8630272 1314 67087892480 94508638355456 94508640222577 140732030881408 0 0 0 0 4096 1088 0 0 0 17 54 0 0 1 0 0 94508640480640 94508640527576 94508665544704 140732030884634 140732030884758 140732030884758 140732030885857 0
+/proc/18/statm: 2107 1314 1090 456 0 268 0
+Current children cumulated CPU time: 0.42 s
+Current children cumulated vsize: 26112 KiB
+Current children cumulated memory: 17676 KiB
+
+[startup+0.812969 s]
+# the end of solver process 16 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.530469 s, system=0.019377 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+0.800306 s]
+/proc/loadavg: 40.00 41.56 48.99 47/2980 18
+/proc/meminfo: memFree=488321372/527542200 swapFree=33551356/33554428
+[pid=16] ppid=13 vsize=17684 memory=12420 CPUtime=0.04 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/16/stat : 16 (python3) S 13 16 0 0 -1 4194304 1896 0 96 0 3 1 0 0 20 0 1 0 53230943 18108416 3105 67087892480 4194304 7154137 140737158019120 0 0 0 0 16781312 2 1 0 0 17 49 0 0 8 0 0 9727432 11029816 40255488 140737158019927 140737158020013 140737158020013 140737158021095 0
+/proc/16/statm: 4421 3105 1512 723 0 2063 0
+[pid=18] ppid=16 vsize=8428 memory=5256 CPUtime=0.48 cores=49,51,53-55,75,90-97,161,163,165-167,187,202-209
+/proc/18/stat : 18 (bn4rust) R 16 16 0 0 -1 4194304 3246 0 18 0 48 0 0 0 20 0 1 0 53230957 8630272 1314 67087892480 94508638355456 94508640222577 140732030881408 0 0 0 0 4096 1088 0 0 0 17 54 0 0 1 0 0 94508640480640 94508640527576 94508665544704 140732030884634 140732030884758 140732030884758 140732030885857 0
+/proc/18/statm: 2107 1314 1090 456 0 268 0
+Current children cumulated CPU time: 0.52 s
+Current children cumulated vsize: 26112 KiB
+Current children cumulated memory: 17676 KiB
+
+Child status: 0
+Real time (s): 0.813001
+CPU time (s): 0.549846
+CPU user time (s): 0.530469
+CPU system time (s): 0.019377
+CPU usage (%): 67.6317
+Max. virtual memory (cumulated for all children) (KiB): 26312
+Max. memory (cumulated for all children) (KiB): 17704
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.530469
+system time used= 0.019377
+maximum resident set size= 12640
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 5163
+page faults= 116
+swaps= 0
+block input operations= 20000
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 1016
+involuntary context switches= 1
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 16
+#   total CPU time (s): 0.549846
+#   total CPU user time (s): 0.530469
+#   total CPU system time (s): 0.019377
+
+??? join timestamper begins
+??? join timestamper ends
+??? end of timestamper thread
+runsolver used 0.001352 second user time and 0.008716 second system time
+
+The end

@@ -1,0 +1,19 @@
+1677.03/1688.40	   0.000 === Boolean Network: /input/model_078.bnet ===
+1677.03/1688.40	   0.000 Rules: 164
+1677.03/1688.40	   0.001 Loaded attractor from: /input/model_078_01.csv
+1677.03/1688.40	   0.001 Attractor length: 1
+1677.03/1688.40	   0.001 Using Forward Baseline
+1677.03/1688.40	   0.001 CyBER configuration: Forward Baseline
+1677.03/1688.40	   0.001 CyBER enabled techniques: none
+1677.03/1688.40	   0.001 BDD retained variables: 164
+1677.03/1688.40	   0.001 BDD pruned convergent-output variables: 0
+1677.03/1688.40	   0.003 BDD backend: Biodivine BDD 0.5.27
+1677.03/1688.40	   0.003 CyBER fixed point: Forward Baseline
+1677.03/1688.40	   0.003 BDD variables: 164
+1677.03/1688.40	   0.003 BDD transition representation: rule-local kernels
+1677.03/1688.40	   0.003 BDD active rule functions: 164
+1677.03/1688.40	   0.003 BDD variable order: lexical
+1677.03/1688.40	   0.003 BDD image accumulation: binary then union
+1677.03/1688.40	   0.003 BDD safety/deadlock check: global
+1677.03/1688.40	   0.003 BDD build time: 0.001
+1677.03/1688.40	{"algorithm": "cyber-forward-baseline", "error": "bn4rust exited with code -9", "result_status": "failed"}

@@ -1,0 +1,71 @@
+1793.95/1800.00	   0.000 === Boolean Network: /input/model_084.bnet ===
+1793.95/1800.00	   0.000 Rules: 81
+1793.95/1800.00	   0.084 Loaded attractor from: /input/model_084_01.csv
+1793.95/1800.00	   0.084 Attractor length: 1
+1793.95/1800.00	   0.084 Using Complement GFP
+1793.95/1800.00	   0.084 CyBER configuration: Complement GFP
+1793.95/1800.00	   0.084 CyBER enabled techniques: complement-gfp
+1793.95/1800.00	   0.084 BDD retained variables: 81
+1793.95/1800.00	   0.084 BDD pruned convergent-output variables: 0
+1793.95/1800.00	   0.084 BDD backend: Biodivine BDD 0.5.27
+1793.95/1800.00	   0.084 CyBER fixed point: Complement GFP
+1793.95/1800.00	   0.084 BDD variables: 81
+1793.95/1800.00	   0.084 BDD transition representation: rule-local kernels
+1793.95/1800.00	   0.084 BDD active rule functions: 81
+1793.95/1800.00	   0.084 BDD variable order: lexical
+1793.95/1800.00	   0.084 BDD image accumulation: binary then union
+1793.95/1800.00	   0.084 BDD safety/deadlock check: global
+1793.95/1800.00	   0.084 BDD build time: 0.000
+1793.95/1800.00	   0.264 BDD iteration 1: bad nodes=158, time=0.091
+1793.95/1800.00	   0.359 BDD iteration 2: bad nodes=371, time=0.095
+1793.95/1800.00	   0.460 BDD iteration 3: bad nodes=772, time=0.101
+1793.95/1800.00	   0.577 BDD iteration 4: bad nodes=1439, time=0.117
+1793.95/1800.00	   0.713 BDD iteration 5: bad nodes=2452, time=0.136
+1793.95/1800.00	   0.879 BDD iteration 6: bad nodes=3835, time=0.166
+1793.95/1800.55	   1.090 BDD iteration 7: bad nodes=5631, time=0.211
+1793.95/1800.55	   1.353 BDD iteration 8: bad nodes=7884, time=0.263
+1793.95/1800.55	   1.683 BDD iteration 9: bad nodes=10680, time=0.330
+1793.95/1800.55	   2.101 BDD iteration 10: bad nodes=14080, time=0.418
+1793.95/1800.55	   2.640 BDD iteration 11: bad nodes=18378, time=0.539
+1793.95/1800.55	   3.322 BDD iteration 12: bad nodes=23985, time=0.682
+1793.95/1800.55	   4.178 BDD iteration 13: bad nodes=31348, time=0.856
+1793.95/1800.55	   5.292 BDD iteration 14: bad nodes=40833, time=1.114
+1793.95/1800.55	   6.745 BDD iteration 15: bad nodes=53129, time=1.453
+1793.95/1800.55	   8.674 BDD iteration 16: bad nodes=69001, time=1.929
+1793.95/1800.55	  11.289 BDD iteration 17: bad nodes=88994, time=2.615
+1793.95/1800.55	  14.642 BDD iteration 18: bad nodes=113711, time=3.353
+1793.95/1800.55	  19.163 BDD iteration 19: bad nodes=143721, time=4.521
+1793.95/1800.55	  24.986 BDD iteration 20: bad nodes=179626, time=5.821
+1793.95/1800.55	  32.386 BDD iteration 21: bad nodes=221630, time=7.401
+1793.95/1800.55	  41.936 BDD iteration 22: bad nodes=270095, time=9.550
+1793.95/1800.55	  54.081 BDD iteration 23: bad nodes=325701, time=12.145
+1793.95/1800.55	  69.002 BDD iteration 24: bad nodes=388868, time=14.921
+1793.95/1800.55	  87.484 BDD iteration 25: bad nodes=459715, time=18.481
+1793.95/1800.55	 110.440 BDD iteration 26: bad nodes=537787, time=22.956
+1793.95/1800.55	 137.485 BDD iteration 27: bad nodes=622203, time=27.045
+1793.95/1800.55	 168.332 BDD iteration 28: bad nodes=712222, time=30.848
+1793.95/1800.55	 203.998 BDD iteration 29: bad nodes=806608, time=35.666
+1793.95/1800.55	 244.725 BDD iteration 30: bad nodes=903601, time=40.727
+1793.95/1800.55	 291.666 BDD iteration 31: bad nodes=1001354, time=46.941
+1793.95/1800.55	 343.460 BDD iteration 32: bad nodes=1098264, time=51.794
+1793.95/1800.55	 399.775 BDD iteration 33: bad nodes=1192828, time=56.315
+1793.95/1800.55	 460.934 BDD iteration 34: bad nodes=1283470, time=61.159
+1793.95/1800.55	 526.028 BDD iteration 35: bad nodes=1368817, time=65.094
+1793.95/1800.55	 594.633 BDD iteration 36: bad nodes=1447922, time=68.606
+1793.95/1800.55	 665.048 BDD iteration 37: bad nodes=1519672, time=70.415
+1793.95/1800.55	 738.662 BDD iteration 38: bad nodes=1583126, time=73.614
+1793.95/1800.55	 814.034 BDD iteration 39: bad nodes=1637647, time=75.372
+1793.95/1800.55	 891.173 BDD iteration 40: bad nodes=1682887, time=77.139
+1793.95/1800.55	 969.599 BDD iteration 41: bad nodes=1718595, time=78.426
+1793.95/1800.55	1048.838 BDD iteration 42: bad nodes=1744411, time=79.239
+1793.95/1800.55	1128.197 BDD iteration 43: bad nodes=1759740, time=79.359
+1793.95/1800.55	1207.376 BDD iteration 44: bad nodes=1763858, time=79.179
+1793.95/1800.55	1285.193 BDD iteration 45: bad nodes=1756584, time=77.818
+1793.95/1800.55	1361.664 BDD iteration 46: bad nodes=1738356, time=76.470
+1793.95/1800.55	1435.984 BDD iteration 47: bad nodes=1709816, time=74.320
+1793.95/1800.55	1507.777 BDD iteration 48: bad nodes=1672103, time=71.793
+1793.95/1800.55	1576.859 BDD iteration 49: bad nodes=1626555, time=69.082
+1793.95/1800.55	1643.369 BDD iteration 50: bad nodes=1574560, time=66.510
+1793.95/1800.55	1706.114 BDD iteration 51: bad nodes=1517126, time=62.745
+1793.95/1800.55	1766.028 BDD iteration 52: bad nodes=1455008, time=59.914
+1793.95/1800.55	{"algorithm": "cyber-complement-gfp", "error": "bn4rust exited with code -15", "result_status": "failed"}

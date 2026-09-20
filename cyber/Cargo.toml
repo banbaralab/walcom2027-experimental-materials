@@ -1,0 +1,19 @@
+[package]
+name = "cyber"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+biodivine-lib-bdd = "=0.5.27"
+num-bigint = "=0.4.8"
+
+[[bin]]
+name = "cyber"
+path = "src/main.rs"
+
+[features]
+internal-regression-tests = []
+
+[profile.release]
+opt-level = 3
+lto = true

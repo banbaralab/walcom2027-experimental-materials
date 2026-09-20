@@ -1,0 +1,1 @@
+585.82/588.05	{"active_rules": 37, "algorithm": "cyber-full", "basin_size": "2306035137059487744", "bdd_basin_nodes": 87, "bdd_iterations": 1060, "bdd_peak_nodes": 103645, "pruned_variables": 31, "result_status": "completed", "retained_variables": 37, "sink_scc_variables_after": 37, "sink_scc_variables_before": 62, "skipped_rules": 31, "variable_order": "dependency"}

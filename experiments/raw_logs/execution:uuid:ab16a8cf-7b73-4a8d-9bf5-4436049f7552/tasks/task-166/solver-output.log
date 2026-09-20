@@ -1,0 +1,89 @@
+1792.90/1800.00	   0.000 === Boolean Network: /input/model_130.bnet ===
+1792.90/1800.00	   0.000 Rules: 77
+1792.90/1800.00	   0.001 Loaded attractor from: /input/model_130_01.csv
+1792.90/1800.00	   0.001 Attractor length: 1
+1792.90/1800.00	   0.001 Using Forward Baseline
+1792.90/1800.00	   0.001 CyBER configuration: Forward Baseline
+1792.90/1800.00	   0.001 CyBER enabled techniques: none
+1792.90/1800.00	   0.001 BDD retained variables: 77
+1792.90/1800.00	   0.001 BDD pruned convergent-output variables: 0
+1792.90/1800.00	   0.002 BDD backend: Biodivine BDD 0.5.27
+1792.90/1800.00	   0.002 CyBER fixed point: Forward Baseline
+1792.90/1800.00	   0.002 BDD variables: 77
+1792.90/1800.00	   0.002 BDD transition representation: rule-local kernels
+1792.90/1800.00	   0.002 BDD active rule functions: 77
+1792.90/1800.00	   0.002 BDD variable order: lexical
+1792.90/1800.00	   0.002 BDD image accumulation: binary then union
+1792.90/1800.00	   0.002 BDD safety/deadlock check: global
+1792.90/1800.00	   0.002 BDD build time: 0.000
+1792.90/1800.00	   1.891 BDD iteration 1: frontier nodes=154, basin nodes=153, time=1.889
+1792.90/1800.00	   3.731 BDD iteration 2: frontier nodes=366, basin nodes=365, time=1.840
+1792.90/1800.00	   5.587 BDD iteration 3: frontier nodes=628, basin nodes=626, time=1.857
+1792.90/1800.00	   7.452 BDD iteration 4: frontier nodes=983, basin nodes=979, time=1.865
+1792.90/1800.00	   9.308 BDD iteration 5: frontier nodes=1456, basin nodes=1449, time=1.856
+1792.90/1800.00	  11.201 BDD iteration 6: frontier nodes=1985, basin nodes=1976, time=1.893
+1792.90/1800.00	  13.173 BDD iteration 7: frontier nodes=2632, basin nodes=2621, time=1.972
+1792.90/1800.00	  15.172 BDD iteration 8: frontier nodes=3372, basin nodes=3359, time=1.999
+1792.90/1800.00	  17.247 BDD iteration 9: frontier nodes=4196, basin nodes=4181, time=2.075
+1792.90/1800.00	  19.357 BDD iteration 10: frontier nodes=5112, basin nodes=5093, time=2.109
+1792.90/1800.00	  21.573 BDD iteration 11: frontier nodes=6094, basin nodes=6071, time=2.216
+1792.90/1800.00	  23.853 BDD iteration 12: frontier nodes=7166, basin nodes=7138, time=2.279
+1792.90/1800.00	  26.229 BDD iteration 13: frontier nodes=8280, basin nodes=8252, time=2.376
+1792.90/1800.00	  28.735 BDD iteration 14: frontier nodes=9622, basin nodes=9598, time=2.507
+1792.90/1800.00	  31.383 BDD iteration 15: frontier nodes=10978, basin nodes=10956, time=2.648
+1792.90/1800.00	  34.174 BDD iteration 16: frontier nodes=12672, basin nodes=12660, time=2.791
+1792.90/1800.00	  37.137 BDD iteration 17: frontier nodes=14392, basin nodes=14395, time=2.963
+1792.90/1800.00	  40.300 BDD iteration 18: frontier nodes=16369, basin nodes=16386, time=3.163
+1792.90/1800.00	  43.678 BDD iteration 19: frontier nodes=18401, basin nodes=18444, time=3.378
+1792.90/1800.00	  47.321 BDD iteration 20: frontier nodes=20618, basin nodes=20672, time=3.643
+1792.90/1800.00	  51.235 BDD iteration 21: frontier nodes=22869, basin nodes=22941, time=3.914
+1792.90/1800.00	  55.505 BDD iteration 22: frontier nodes=25359, basin nodes=25443, time=4.270
+1792.90/1800.00	  60.159 BDD iteration 23: frontier nodes=27854, basin nodes=27943, time=4.654
+1792.90/1800.00	  65.403 BDD iteration 24: frontier nodes=30630, basin nodes=30737, time=5.244
+1792.90/1800.00	  71.199 BDD iteration 25: frontier nodes=33539, basin nodes=33656, time=5.795
+1792.90/1800.00	  77.370 BDD iteration 26: frontier nodes=36694, basin nodes=36822, time=6.170
+1792.90/1800.00	  84.229 BDD iteration 27: frontier nodes=40160, basin nodes=40308, time=6.857
+1792.90/1800.00	  92.517 BDD iteration 28: frontier nodes=43855, basin nodes=44010, time=8.288
+1792.90/1800.00	 101.736 BDD iteration 29: frontier nodes=47816, basin nodes=47990, time=9.217
+1792.90/1800.00	 111.844 BDD iteration 30: frontier nodes=52092, basin nodes=52270, time=10.107
+1792.90/1800.00	 122.946 BDD iteration 31: frontier nodes=56593, basin nodes=56786, time=11.101
+1792.90/1800.00	 135.419 BDD iteration 32: frontier nodes=61429, basin nodes=61604, time=12.472
+1792.90/1800.00	 149.736 BDD iteration 33: frontier nodes=66562, basin nodes=66743, time=14.317
+1792.90/1800.00	 166.299 BDD iteration 34: frontier nodes=71917, basin nodes=72084, time=16.562
+1792.90/1800.00	 184.450 BDD iteration 35: frontier nodes=77473, basin nodes=77649, time=18.151
+1792.90/1800.00	 203.983 BDD iteration 36: frontier nodes=83120, basin nodes=83292, time=19.533
+1792.90/1800.00	 224.955 BDD iteration 37: frontier nodes=88781, basin nodes=88977, time=20.971
+1792.90/1800.00	 247.769 BDD iteration 38: frontier nodes=94452, basin nodes=94650, time=22.814
+1792.90/1800.00	 272.216 BDD iteration 39: frontier nodes=100132, basin nodes=100342, time=24.447
+1792.90/1800.00	 298.409 BDD iteration 40: frontier nodes=105888, basin nodes=106090, time=26.193
+1792.90/1800.00	 325.828 BDD iteration 41: frontier nodes=111707, basin nodes=111878, time=27.420
+1792.90/1800.00	 354.813 BDD iteration 42: frontier nodes=117795, basin nodes=117911, time=28.984
+1792.90/1800.00	 385.060 BDD iteration 43: frontier nodes=123979, basin nodes=124022, time=30.247
+1792.90/1800.00	 418.446 BDD iteration 44: frontier nodes=130445, basin nodes=130387, time=33.386
+1792.90/1800.00	 453.154 BDD iteration 45: frontier nodes=137073, basin nodes=136888, time=34.707
+1792.90/1800.00	 489.598 BDD iteration 46: frontier nodes=143642, basin nodes=143295, time=36.444
+1792.90/1800.00	 527.084 BDD iteration 47: frontier nodes=150304, basin nodes=149739, time=37.486
+1792.90/1800.00	 565.763 BDD iteration 48: frontier nodes=156614, basin nodes=155791, time=38.679
+1792.90/1800.00	 605.387 BDD iteration 49: frontier nodes=162638, basin nodes=161508, time=39.624
+1792.90/1800.00	 646.112 BDD iteration 50: frontier nodes=168230, basin nodes=166793, time=40.724
+1792.90/1800.00	 687.484 BDD iteration 51: frontier nodes=173145, basin nodes=171384, time=41.372
+1792.90/1800.00	 729.817 BDD iteration 52: frontier nodes=177536, basin nodes=175456, time=42.332
+1792.90/1800.00	 772.760 BDD iteration 53: frontier nodes=181250, basin nodes=178868, time=42.944
+1792.90/1800.00	 816.167 BDD iteration 54: frontier nodes=184425, basin nodes=181785, time=43.406
+1792.90/1800.00	 860.306 BDD iteration 55: frontier nodes=187228, basin nodes=184397, time=44.139
+1792.90/1800.00	 905.907 BDD iteration 56: frontier nodes=189794, basin nodes=186895, time=45.600
+1792.90/1800.00	 951.951 BDD iteration 57: frontier nodes=192334, basin nodes=189427, time=46.044
+1792.90/1800.00	 999.471 BDD iteration 58: frontier nodes=195045, basin nodes=192208, time=47.520
+1792.90/1800.00	1048.925 BDD iteration 59: frontier nodes=197880, basin nodes=195148, time=49.454
+1792.90/1800.00	1099.700 BDD iteration 60: frontier nodes=200985, basin nodes=198400, time=50.774
+1792.90/1800.00	1152.761 BDD iteration 61: frontier nodes=204265, basin nodes=201796, time=53.061
+1792.90/1800.00	1207.899 BDD iteration 62: frontier nodes=207719, basin nodes=205407, time=55.138
+1792.90/1800.00	1265.091 BDD iteration 63: frontier nodes=211409, basin nodes=209181, time=57.192
+1792.90/1800.00	1324.856 BDD iteration 64: frontier nodes=215236, basin nodes=213024, time=59.764
+1792.90/1800.00	1386.490 BDD iteration 65: frontier nodes=219341, basin nodes=217139, time=61.634
+1792.90/1800.00	1450.315 BDD iteration 66: frontier nodes=223661, basin nodes=221338, time=63.825
+1792.90/1800.00	1516.567 BDD iteration 67: frontier nodes=228436, basin nodes=226010, time=66.252
+1792.90/1800.00	1590.172 BDD iteration 68: frontier nodes=233735, basin nodes=231102, time=73.605
+1792.90/1800.00	1665.901 BDD iteration 69: frontier nodes=239607, basin nodes=236807, time=75.728
+1792.90/1800.00	1743.061 BDD iteration 70: frontier nodes=246337, basin nodes=243311, time=77.160
+1792.90/1800.00	{"algorithm": "cyber-forward-baseline", "error": "bn4rust exited with code -15", "result_status": "failed"}

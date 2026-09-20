@@ -1,0 +1,19 @@
+1201.70/1209.60	   0.000 === Boolean Network: /input/model_220.bnet ===
+1201.70/1209.60	   0.000 Rules: 342
+1201.70/1209.60	   0.013 Loaded attractor from: /input/model_220_01.csv
+1201.70/1209.60	   0.013 Attractor length: 1
+1201.70/1209.60	   0.013 Using Complement GFP
+1201.70/1209.60	   0.014 CyBER configuration: Complement GFP
+1201.70/1209.60	   0.014 CyBER enabled techniques: complement-gfp
+1201.70/1209.60	   0.014 BDD retained variables: 342
+1201.70/1209.60	   0.014 BDD pruned convergent-output variables: 0
+1201.70/1209.60	   0.016 BDD backend: Biodivine BDD 0.5.27
+1201.70/1209.60	   0.016 CyBER fixed point: Complement GFP
+1201.70/1209.60	   0.016 BDD variables: 342
+1201.70/1209.60	   0.016 BDD transition representation: rule-local kernels
+1201.70/1209.60	   0.016 BDD active rule functions: 342
+1201.70/1209.60	   0.016 BDD variable order: lexical
+1201.70/1209.60	   0.016 BDD image accumulation: binary then union
+1201.70/1209.60	   0.016 BDD safety/deadlock check: global
+1201.70/1209.60	   0.016 BDD build time: 0.001
+1201.70/1209.61	{"algorithm": "cyber-complement-gfp", "error": "bn4rust exited with code -9", "result_status": "failed"}

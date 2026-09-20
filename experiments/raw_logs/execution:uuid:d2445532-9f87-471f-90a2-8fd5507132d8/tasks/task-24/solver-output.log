@@ -1,0 +1,1 @@
+0.03/0.35	{"active_rules": 9, "algorithm": "cyber-full", "basin_size": "12582912", "bdd_basin_nodes": 17, "bdd_iterations": 6, "bdd_peak_nodes": 70, "pruned_variables": 32, "result_status": "completed", "retained_variables": 9, "sink_scc_variables_after": 9, "sink_scc_variables_before": 28, "skipped_rules": 32, "variable_order": "dependency"}

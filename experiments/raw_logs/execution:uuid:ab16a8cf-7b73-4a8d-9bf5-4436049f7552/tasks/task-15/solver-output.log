@@ -1,0 +1,19 @@
+883.89/889.33	   0.000 === Boolean Network: /input/model_195.bnet ===
+883.89/889.33	   0.000 Rules: 216
+883.89/889.33	   0.001 Loaded attractor from: /input/model_195_01.csv
+883.89/889.33	   0.001 Attractor length: 1
+883.89/889.33	   0.001 Using Forward Baseline
+883.89/889.33	   0.002 CyBER configuration: Forward Baseline
+883.89/889.33	   0.002 CyBER enabled techniques: none
+883.89/889.33	   0.002 BDD retained variables: 216
+883.89/889.33	   0.002 BDD pruned convergent-output variables: 0
+883.89/889.33	   0.003 BDD backend: Biodivine BDD 0.5.27
+883.89/889.33	   0.003 CyBER fixed point: Forward Baseline
+883.89/889.33	   0.003 BDD variables: 216
+883.89/889.33	   0.003 BDD transition representation: rule-local kernels
+883.89/889.33	   0.003 BDD active rule functions: 216
+883.89/889.33	   0.003 BDD variable order: lexical
+883.89/889.33	   0.003 BDD image accumulation: binary then union
+883.89/889.33	   0.003 BDD safety/deadlock check: global
+883.89/889.33	   0.003 BDD build time: 0.001
+883.89/889.33	{"algorithm": "cyber-forward-baseline", "error": "bn4rust exited with code -9", "result_status": "failed"}

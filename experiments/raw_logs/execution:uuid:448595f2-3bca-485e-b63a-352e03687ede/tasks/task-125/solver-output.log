@@ -1,0 +1,1 @@
+0.02/0.18	{"active_rules": 14, "algorithm": "cyber-complement-gfp-plus-sink-scc", "basin_size": "152", "bdd_basin_nodes": 21, "bdd_iterations": 11, "bdd_peak_nodes": 113, "pruned_variables": 2, "result_status": "completed", "retained_variables": 14, "sink_scc_variables_after": 14, "sink_scc_variables_before": 16, "skipped_rules": 2, "variable_order": "lexical"}

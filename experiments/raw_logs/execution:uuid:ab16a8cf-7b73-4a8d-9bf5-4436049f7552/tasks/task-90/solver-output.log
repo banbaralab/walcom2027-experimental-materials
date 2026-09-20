@@ -1,0 +1,19 @@
+1432.25/1440.91	   0.000 === Boolean Network: /input/model_220.bnet ===
+1432.25/1440.91	   0.000 Rules: 342
+1432.25/1440.91	   0.001 Loaded attractor from: /input/model_220_01.csv
+1432.25/1440.91	   0.001 Attractor length: 1
+1432.25/1440.91	   0.001 Using Forward Baseline
+1432.25/1440.91	   0.002 CyBER configuration: Forward Baseline
+1432.25/1440.91	   0.002 CyBER enabled techniques: none
+1432.25/1440.91	   0.002 BDD retained variables: 342
+1432.25/1440.91	   0.002 BDD pruned convergent-output variables: 0
+1432.25/1440.91	   0.004 BDD backend: Biodivine BDD 0.5.27
+1432.25/1440.91	   0.004 CyBER fixed point: Forward Baseline
+1432.25/1440.91	   0.004 BDD variables: 342
+1432.25/1440.91	   0.004 BDD transition representation: rule-local kernels
+1432.25/1440.91	   0.004 BDD active rule functions: 342
+1432.25/1440.91	   0.004 BDD variable order: lexical
+1432.25/1440.91	   0.004 BDD image accumulation: binary then union
+1432.25/1440.91	   0.004 BDD safety/deadlock check: global
+1432.25/1440.91	   0.004 BDD build time: 0.002
+1432.25/1440.91	{"algorithm": "cyber-forward-baseline", "error": "bn4rust exited with code -9", "result_status": "failed"}

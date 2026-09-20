@@ -1,0 +1,1 @@
+1502.13/1508.92	{"active_rules": 58, "algorithm": "cyber-complement-gfp-plus-immutable", "basin_size": "665559943348224", "bdd_basin_nodes": 215, "bdd_iterations": 113, "bdd_peak_nodes": 1275976, "pruned_variables": 3, "result_status": "completed", "retained_variables": 58, "skipped_rules": 3, "variable_order": "lexical"}

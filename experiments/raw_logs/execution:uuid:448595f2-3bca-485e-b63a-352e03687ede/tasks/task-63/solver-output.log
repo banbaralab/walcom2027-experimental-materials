@@ -1,0 +1,1 @@
+561.61/563.87	{"active_rules": 51, "algorithm": "cyber-complement-gfp-plus-sink-scc", "basin_size": "10761338880", "bdd_basin_nodes": 382, "bdd_iterations": 488, "bdd_peak_nodes": 414129, "pruned_variables": 5, "result_status": "completed", "retained_variables": 51, "sink_scc_variables_after": 51, "sink_scc_variables_before": 56, "skipped_rules": 5, "variable_order": "lexical"}

@@ -1,0 +1,1 @@
+358.31/360.32	{"active_rules": 37, "algorithm": "cyber-full", "basin_size": "1154578245308383232", "bdd_basin_nodes": 114, "bdd_iterations": 573, "bdd_peak_nodes": 116535, "pruned_variables": 25, "result_status": "completed", "retained_variables": 37, "sink_scc_variables_after": 37, "sink_scc_variables_before": 61, "skipped_rules": 25, "variable_order": "dependency"}

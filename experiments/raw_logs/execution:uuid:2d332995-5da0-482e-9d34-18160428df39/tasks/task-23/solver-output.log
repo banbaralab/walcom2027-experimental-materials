@@ -1,0 +1,60 @@
+1791.15/1800.00	   0.000 === Boolean Network: /input/model_192.bnet ===
+1791.15/1800.00	   0.000 Rules: 102
+1791.15/1800.00	   0.001 Loaded attractor from: /input/model_192_01.csv
+1791.15/1800.00	   0.001 Attractor length: 1
+1791.15/1800.00	   0.001 Using Complement GFP+Dependency Order
+1791.15/1800.00	   0.001 CyBER configuration: Complement GFP+Dependency Order
+1791.15/1800.00	   0.001 CyBER enabled techniques: complement-gfp,dependency-order
+1791.15/1800.00	   0.001 BDD retained variables: 102
+1791.15/1800.00	   0.001 BDD pruned convergent-output variables: 0
+1791.15/1800.00	   0.003 BDD backend: Biodivine BDD 0.5.27
+1791.15/1800.00	   0.003 CyBER fixed point: Complement GFP
+1791.15/1800.00	   0.003 BDD variables: 102
+1791.15/1800.00	   0.003 BDD transition representation: rule-local kernels
+1791.15/1800.00	   0.003 BDD active rule functions: 102
+1791.15/1800.00	   0.003 BDD variable order: dependency
+1791.15/1800.00	   0.003 BDD image accumulation: binary then union
+1791.15/1800.00	   0.003 BDD safety/deadlock check: global
+1791.15/1800.00	   0.003 BDD build time: 0.002
+1791.15/1800.00	   0.662 BDD iteration 1: bad nodes=192, time=0.328
+1791.15/1800.00	   0.998 BDD iteration 2: bad nodes=410, time=0.336
+1791.15/1800.00	   1.346 BDD iteration 3: bad nodes=751, time=0.348
+1791.15/1800.00	   1.720 BDD iteration 4: bad nodes=1299, time=0.374
+1791.15/1800.00	   2.123 BDD iteration 5: bad nodes=2167, time=0.403
+1791.15/1800.00	   2.585 BDD iteration 6: bad nodes=3158, time=0.462
+1791.15/1800.00	   3.125 BDD iteration 7: bad nodes=4539, time=0.540
+1791.15/1800.00	   3.766 BDD iteration 8: bad nodes=6303, time=0.641
+1791.15/1800.00	   4.551 BDD iteration 9: bad nodes=8691, time=0.785
+1791.15/1800.00	   5.495 BDD iteration 10: bad nodes=11920, time=0.943
+1791.15/1800.00	   6.705 BDD iteration 11: bad nodes=15972, time=1.210
+1791.15/1800.00	   8.256 BDD iteration 12: bad nodes=20942, time=1.552
+1791.15/1800.00	  10.306 BDD iteration 13: bad nodes=26822, time=2.050
+1791.15/1800.00	  12.940 BDD iteration 14: bad nodes=33600, time=2.634
+1791.15/1800.00	  16.296 BDD iteration 15: bad nodes=41586, time=3.356
+1791.15/1800.00	  20.604 BDD iteration 16: bad nodes=50610, time=4.308
+1791.15/1800.00	  26.200 BDD iteration 17: bad nodes=60860, time=5.595
+1791.15/1800.00	  33.340 BDD iteration 18: bad nodes=72116, time=7.140
+1791.15/1800.00	  41.952 BDD iteration 19: bad nodes=84368, time=8.612
+1791.15/1800.00	  52.344 BDD iteration 20: bad nodes=97883, time=10.392
+1791.15/1800.00	  64.836 BDD iteration 21: bad nodes=112261, time=12.492
+1791.15/1800.00	  79.439 BDD iteration 22: bad nodes=127837, time=14.603
+1791.15/1800.00	  96.570 BDD iteration 23: bad nodes=144598, time=17.131
+1791.15/1800.00	 116.591 BDD iteration 24: bad nodes=162989, time=20.021
+1791.15/1800.00	 139.381 BDD iteration 25: bad nodes=183415, time=22.790
+1791.15/1800.00	 165.685 BDD iteration 26: bad nodes=205991, time=26.304
+1791.15/1800.00	 195.521 BDD iteration 27: bad nodes=231046, time=29.836
+1791.15/1800.00	 229.876 BDD iteration 28: bad nodes=259440, time=34.355
+1791.15/1800.00	 268.786 BDD iteration 29: bad nodes=291472, time=38.908
+1791.15/1800.00	 312.784 BDD iteration 30: bad nodes=327813, time=43.999
+1791.15/1800.00	 363.817 BDD iteration 31: bad nodes=369098, time=51.033
+1791.15/1800.00	 422.671 BDD iteration 32: bad nodes=416509, time=58.854
+1791.15/1800.00	 489.983 BDD iteration 33: bad nodes=470891, time=67.313
+1791.15/1800.00	 566.819 BDD iteration 34: bad nodes=532954, time=76.836
+1791.15/1800.00	 658.298 BDD iteration 35: bad nodes=603492, time=91.479
+1791.15/1800.00	 762.981 BDD iteration 36: bad nodes=684037, time=104.683
+1791.15/1800.00	 882.306 BDD iteration 37: bad nodes=775761, time=119.324
+1791.15/1800.00	1018.682 BDD iteration 38: bad nodes=879804, time=136.377
+1791.15/1800.00	1174.520 BDD iteration 39: bad nodes=997590, time=155.837
+1791.15/1800.00	1356.419 BDD iteration 40: bad nodes=1131016, time=181.898
+1791.15/1800.00	1565.344 BDD iteration 41: bad nodes=1281273, time=208.925
+1791.15/1800.00	{"algorithm": "cyber-complement-gfp-plus-dependency-order", "error": "bn4rust exited with code -15", "result_status": "failed"}

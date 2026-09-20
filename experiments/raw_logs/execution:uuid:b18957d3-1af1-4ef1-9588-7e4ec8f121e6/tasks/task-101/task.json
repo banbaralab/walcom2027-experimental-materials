@@ -1,0 +1,1 @@
+{"instance_path": "/LARGE0/gr10609/b39275/xcsp3instances/benchmark/workspaces/boolean-network/BBM/model_059.bnet", "limits": {"cpu_limit_sec": 1800.0, "memory_limit_mb": 64000, "wall_limit_sec": 1800.0}, "seed": 0, "solver_command": ["/opt/solver/run_pyboolnet.py"], "solver_name": null, "task_id": "task-101"}

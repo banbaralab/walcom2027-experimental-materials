@@ -1,0 +1,1 @@
+4.83/5.03	{"active_rules": 65, "algorithm": "cyber-complement-gfp-plus-dependency-order", "basin_size": "18014398509481984", "bdd_basin_nodes": 13, "bdd_iterations": 94, "bdd_peak_nodes": 10999, "pruned_variables": 0, "result_status": "completed", "retained_variables": 65, "skipped_rules": 0, "variable_order": "dependency"}

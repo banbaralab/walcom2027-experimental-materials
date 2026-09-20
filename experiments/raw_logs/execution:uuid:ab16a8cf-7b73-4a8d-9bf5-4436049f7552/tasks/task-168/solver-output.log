@@ -1,0 +1,1 @@
+0.87/1.00	{"active_rules": 21, "algorithm": "cyber-forward-baseline", "basin_size": "262144", "bdd_basin_nodes": 5, "bdd_iterations": 42, "bdd_peak_nodes": 10055, "pruned_variables": 0, "result_status": "completed", "retained_variables": 21, "skipped_rules": 0, "variable_order": "lexical"}

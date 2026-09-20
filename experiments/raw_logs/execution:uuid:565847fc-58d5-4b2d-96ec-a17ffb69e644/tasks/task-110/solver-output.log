@@ -1,0 +1,1 @@
+0.01/0.16	{"active_rules": 7, "algorithm": "cyber-complement-gfp-plus-immutable", "basin_size": "3", "bdd_basin_nodes": 10, "bdd_iterations": 3, "bdd_peak_nodes": 39, "pruned_variables": 3, "result_status": "completed", "retained_variables": 7, "skipped_rules": 3, "variable_order": "lexical"}

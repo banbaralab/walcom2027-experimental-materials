@@ -1,0 +1,38 @@
+1793.00/1800.00	   0.000 === Boolean Network: /input/model_221.bnet ===
+1793.00/1800.00	   0.000 Rules: 317
+1793.00/1800.00	   0.001 Loaded attractor from: /input/model_221_01.csv
+1793.00/1800.00	   0.001 Attractor length: 1
+1793.00/1800.00	   0.001 Using Complement GFP+Dependency Order
+1793.00/1800.00	   0.001 CyBER configuration: Complement GFP+Dependency Order
+1793.00/1800.00	   0.001 CyBER enabled techniques: complement-gfp,dependency-order
+1793.00/1800.00	   0.001 BDD retained variables: 317
+1793.00/1800.00	   0.001 BDD pruned convergent-output variables: 0
+1793.00/1800.00	   0.004 BDD backend: Biodivine BDD 0.5.27
+1793.00/1800.00	   0.004 CyBER fixed point: Complement GFP
+1793.00/1800.00	   0.004 BDD variables: 317
+1793.00/1800.00	   0.004 BDD transition representation: rule-local kernels
+1793.00/1800.00	   0.004 BDD active rule functions: 317
+1793.00/1800.00	   0.004 BDD variable order: dependency
+1793.00/1800.00	   0.004 BDD image accumulation: binary then union
+1793.00/1800.00	   0.004 BDD safety/deadlock check: global
+1793.00/1800.00	   0.004 BDD build time: 0.002
+1793.00/1800.00	 178.502 BDD iteration 1: bad nodes=634, time=91.168
+1793.00/1800.00	 265.102 BDD iteration 2: bad nodes=947, time=86.600
+1793.00/1800.00	 351.958 BDD iteration 3: bad nodes=1259, time=86.856
+1793.00/1800.00	 437.729 BDD iteration 4: bad nodes=1571, time=85.772
+1793.00/1800.00	 523.505 BDD iteration 5: bad nodes=1881, time=85.776
+1793.00/1800.00	 610.543 BDD iteration 6: bad nodes=2189, time=87.038
+1793.00/1800.00	 696.956 BDD iteration 7: bad nodes=2494, time=86.413
+1793.00/1800.00	 784.790 BDD iteration 8: bad nodes=2797, time=87.834
+1793.00/1800.00	 872.494 BDD iteration 9: bad nodes=3098, time=87.704
+1793.00/1800.00	 961.667 BDD iteration 10: bad nodes=3509, time=89.173
+1793.00/1800.00	1048.543 BDD iteration 11: bad nodes=3930, time=86.876
+1793.00/1800.00	1135.573 BDD iteration 12: bad nodes=4349, time=87.031
+1793.00/1800.00	1222.041 BDD iteration 13: bad nodes=4765, time=86.468
+1793.00/1800.00	1308.636 BDD iteration 14: bad nodes=5179, time=86.595
+1793.00/1800.00	1396.013 BDD iteration 15: bad nodes=5589, time=87.377
+1793.00/1800.00	1482.783 BDD iteration 16: bad nodes=5996, time=86.770
+1793.00/1800.00	1570.365 BDD iteration 17: bad nodes=6401, time=87.583
+1793.00/1800.00	1657.522 BDD iteration 18: bad nodes=6803, time=87.156
+1793.00/1800.00	1746.555 BDD iteration 19: bad nodes=7202, time=89.034
+1793.00/1800.00	{"algorithm": "cyber-complement-gfp-plus-dependency-order", "error": "bn4rust exited with code -15", "result_status": "failed"}
